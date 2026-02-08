@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.1-esm/index.mjs";function o(r,o,f){var n,e,s,t,i,u,a,d,p,l,m,h;if(e=o[3],s=o[2],t=o[1],i=o[0],n=[],f){for(u=0;u<e;u++)for(a=0;a<s;a++)for(d=0;d<t;d++)for(p=0;p<i;p++)n.push(r[p][d][a][u]);return n}for(p=0;p<i;p++)for(h=r[p],d=0;d<t;d++)for(m=h[d],a=0;a<s;a++)for(l=m[a],u=0;u<e;u++)n.push(l[u]);return n}function f(r,o,f,n,e,s){var t,i,u,a,d,p,l,m,h,v,c,g;if(t=o[3],i=o[2],u=o[1],a=o[0],g=s,f){for(d=0;d<t;d++)for(p=0;p<i;p++)for(l=0;l<u;l++)for(m=0;m<a;m++)n[g]=r[m][l][p][d],g+=e;return n}for(m=0;m<a;m++)for(c=r[m],l=0;l<u;l++)for(v=c[l],p=0;p<i;p++)for(h=v[p],d=0;d<t;d++)n[g]=h[d],g+=e;return n}r(o,"assign",f);export{f as assign,o as default};
-//# sourceMappingURL=index.mjs.map
